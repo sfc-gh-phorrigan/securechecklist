@@ -1,0 +1,16 @@
+repos:
+  # Strip outputs and execution counts, and write notebooks in canonical
+  # nbformat layout. --keep-id preserves cell IDs; without it nbstripout
+  # renumbers every cell.
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.9.1
+    hooks:
+      - id: nbstripout
+        args: [--keep-id]
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.3
+    hooks:
+      - id: ruff-check
+        args: [--fix]
+      - id: ruff-format
