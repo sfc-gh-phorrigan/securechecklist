@@ -43,7 +43,7 @@ Use it to:
   - Service user methods (Workload Identity Federation, key pair, PAT) and PAT lifecycle
 - Managed access schemas (all databases) and grants to `PUBLIC`
 - External access integrations, egress network rules, and secrets
-- Cortex AI governance: `CORTEX_USER` grants, model allowlist, cross-region inference, Cortex Code limits, MCP read-only, and agents
+- Cortex AI governance: `CORTEX_USER` grants, model allowlist, cross-region inference, Cortex Code limits, Cortex AI Guardrails (`AI_SETTINGS`) status and flagged prompt-injection requests, AI usage by surface (Cortex Code, Agents, CoWork), and agent / MCP server ownership with MCP read-only enforcement
 - Error-message redaction parameters
 
 **2. Enterprise Edition**
