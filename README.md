@@ -25,7 +25,7 @@ Use it to:
 
 ## Coverage
 
-**0. Trust Center**: Open findings from the Security Essentials, CIS Benchmark, and Threat Intelligence scanners.
+**0. Trust Center**: Open findings from the Security Essentials, CIS Benchmark, Threat Intelligence, and AI Security scanners, a crosswalk mapping each checklist section to its Trust Center scanners, and a check that those scanners are enabled. Each mapped section also has a **Trust Center coverage** note and a `TC_*` cell that shows open findings for just that section.
 
 **1. All editions**
 - Account and organization naming
